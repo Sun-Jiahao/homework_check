@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/outline_west_24"
+        app:subtitleTextColor="@color/white"
+        app:titleMarginStart="90dp"
+        app:titleTextColor="@color/black">
+
+        <ImageView
+            android:id="@+id/toolbarImg"
+            android:layout_width="26.1dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:src="@drawable/img" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.example.myapp.VerticalScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/search_img"
+                android:layout_width="328dp"
+                android:layout_height="240dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/find_3_simi"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="22dp"
+                android:layout_height="wrap_content"
+                android:text="@string/find_3_simi"
+                android:textAppearance="@style/find_3_simi"
+                android:textSize="15sp"
+                android:gravity="top" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:padding="-1dp"
+                app:tabIndicatorColor="@color/transparent"
+                app:tabPaddingBottom="5dp"
+                app:tabPaddingEnd="5dp"
+                app:tabPaddingStart="5dp"
+                app:tabPaddingTop="5dp"
+                app:tabMode="scrollable"
+                app:tabRippleColor="@android:color/transparent" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+        </LinearLayout>
+    </com.example.myapp.VerticalScrollView>
+
+
+</LinearLayout>
