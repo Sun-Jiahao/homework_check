@@ -26,12 +26,19 @@ public class SearchResult extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private String title;
+    private String reference;
+    private String analysis;
     private TextView textView;
-
-
 
     public SearchResult() {
         // Required empty public constructor
+    }
+
+    public SearchResult(String title, String reference, String analysis) {
+        this.title = title;
+        this.reference = reference;
+        this.analysis = analysis;
     }
 
     /**
@@ -66,15 +73,15 @@ public class SearchResult extends Fragment {
         textView = view.findViewById(R.id.title);
         textView.setText("题目");
         textView = view.findViewById(R.id.title_content);
-        textView.setText("题目内容\n\n\n\n\n");
+        textView.setText(title);
         textView = view.findViewById(R.id.reference);
         textView.setText("答案");
         textView = view.findViewById(R.id.reference_content);
-        textView.setText("答案内容\n\n\n\n\n");
+        textView.setText(reference);
         textView = view.findViewById(R.id.analysis);
         textView.setText("解析");
         textView = view.findViewById(R.id.analysis_content);
-        textView.setText("解析内容\n\n\n\n\n");
+        textView.setText(analysis);
 
 
         return view;

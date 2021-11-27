@@ -5,20 +5,29 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2212962962962963" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable-v24/outline_west_24.xml" value="0.11282051282051282" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/add_mistake_selector.xml" value="0.1064102564102564" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/baseline_note_add_24.xml" value="0.1064102564102564" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/bg_dialog_prompt.xml" value="0.18076923076923077" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/divider.xml" value="0.2012820512820513" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/gradient_search_button.xml" value="0.1064102564102564" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2212962962962963" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/mistake_add.xml" value="0.1064102564102564" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/mistake_sub.xml" value="0.1064102564102564" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/nav_border.xml" value="0.1064102564102564" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/outline_arrow_right_alt_24.xml" value="0.2175925925925926" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/outline_note_add_24.xml" value="0.1064102564102564" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/round_arrow_right_alt_20.xml" value="0.23148148148148148" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/round_arrow_right_alt_24.xml" value="0.23148148148148148" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/search_button.xml" value="0.1675213675213675" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/tab_color_state.xml" value="0.19786324786324785" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/tab_one_selector.xml" value="0.19806560134566864" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/tab_select.xml" value="0.19806560134566864" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/tab_selector.xml" value="0.1423076923076923" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/drawable/tab_unselect.xml" value="0.19806560134566864" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/activity_linear_recycle.xml" value="0.4" />
-        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/activity_recycler_view.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/activity_test.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/fragment_search_result.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/item_result.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/myapp2/app/src/main/res/layout/item_result_1.xml" value="0.18461538461538463" />

@@ -3,6 +3,7 @@ package com.example.myapp;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
+
     private Context mContext;
     private LayoutInflater mInflater;
     ArrayList<String> tabName = new ArrayList<>();
@@ -46,12 +48,22 @@ public class MyPageAdapter extends FragmentPagerAdapter {
         return tabName.get(position);
     }
 
-    public View getTabView(String tabTitle) {
+    public View getTabView(String tabTitle, boolean is_selected) {
+        int height = 32;
+        int selectedWidth = 90;
+        int unselectedWidth = 45;
         mInflater = LayoutInflater.from(mContext);
         View view = mInflater.inflate(R.layout.item_result, null);
         TextView tv =view.findViewById(R.id.tab_result);
         tv.setText(tabTitle);
+        if (is_selected) {
+            tv.setLayoutParams(new LinearLayout.LayoutParams(Utils.dip2px(mContext, selectedWidth),Utils.dip2px(mContext, height)));
+        }
+        else {
+            tv.setLayoutParams(new LinearLayout.LayoutParams(Utils.dip2px(mContext, unselectedWidth),Utils.dip2px(mContext, height)));
+        }
         return view;
     }
+
 
 }

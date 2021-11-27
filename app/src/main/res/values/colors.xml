@@ -13,4 +13,5 @@
     <color name="selectTab">#418DFD</color>
     <color name="unselectTab">#F6F6F9</color>
     <color name="transparent">#00000000</color>
+    <color name="boldBlack">#263456</color>
 </resources>
